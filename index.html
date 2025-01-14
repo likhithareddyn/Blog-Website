@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="header">
+
+    <a href="#" class="logo"><span>Blog</span>App</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#myposts">My Posts</a>
+    </nav>
+
+
+    <input type="search" id="searchInput" placeholder="Search blogs"><i class="fa fa-search"></i></button>
+    <div id="search-results"></div>
+    
+
+</header>
+
+
+<section class="home" id="home">
+    <div class="content">
+        <a href="#myposts" class="btn btn-outline" >My blogs</a>
+    </div>
+</section>
+
+
+    
+<section class="categories" id="categories">
+  <h1 class="heading">Categories</h1>
+  <ul class="category">
+      <a href="#myposts" data-category="Travel" class="category-link">Travel</a>
+      <a href="#myposts" data-category="Food" class="category-link">Food</a>
+      <a href="#myposts" data-category="Technology" class="category-link">Technology</a>
+      <a href="#myposts" data-category="Lifestyle" class="category-link">Lifestyle</a>
+      <a href="#myposts" data-category="Business" class="category-link">Business</a>
+  </ul>
+</section>
+
+
+
+
+<section class="myposts" id="myposts">
+  <h1 class="heading">My Posts</h1>
+  <div class="box-container" id="posts-container">
+    
+  </div>
+</section>
+<script src="index.js"></script>
+  
+</body>
+</html>
